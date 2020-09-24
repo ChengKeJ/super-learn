@@ -3,9 +3,7 @@ package com.ckj.base.thread;
 import java.io.IOException;
 import java.io.PipedReader;
 import java.io.PipedWriter;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 import jodd.util.concurrent.ThreadFactoryBuilder;
@@ -126,6 +124,53 @@ public class ThreadCommunicationCore {
         threadPool.shutdown();
     }
 
+    /**
+     * 利用cyclicBarrier就绪线程然后执行目标线程
+     */
+    private void cyclicBarrier() {
+
+        CyclicBarrier cyclicBarrier = new CyclicBarrier(3, () -> {
+            log.info("cyclicBarrier end task ...");
+        });
+
+        threadPool.execute(() -> {
+            try {
+                log.info("start task 1 ...");
+                Thread.sleep(10);
+                log.info("end task1 ...");
+                cyclicBarrier.await();
+            } catch (InterruptedException | BrokenBarrierException e) {
+                e.printStackTrace();
+            }
+        });
+
+        threadPool.execute(() -> {
+            try {
+                log.info("start task 2 ...");
+                Thread.sleep(10000);
+                log.info("end task2 ...");
+                cyclicBarrier.await();
+            } catch (InterruptedException | BrokenBarrierException e) {
+                e.printStackTrace();
+            }
+        });
+
+        threadPool.execute(() -> {
+            try {
+                log.info("start task 3 ...");
+                Thread.sleep(10);
+                log.info("end task3 ...");
+                cyclicBarrier.await();
+            } catch (InterruptedException | BrokenBarrierException e) {
+                e.printStackTrace();
+            }
+        });
+
+        threadPool.shutdown();
+
+    }
+
+
     public static void main(String[] args) throws IOException {
 
         ThreadCommunicationCore threadCommunicationCore = new ThreadCommunicationCore();
@@ -141,6 +186,9 @@ public class ThreadCommunicationCore {
             e.printStackTrace();
         }
         threadCommunicationCore.block = false;
+        // 利用cyclicBarrier就绪线程然后执行目标线程
+        threadCommunicationCore.cyclicBarrier();
+
 
     }
 
