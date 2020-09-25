@@ -1,4 +1,4 @@
-package com.ckj.superlearn.superlearn.base;
+package com.ckj.base.reactor;
 
 import java.time.Duration;
 import java.util.List;
@@ -13,7 +13,8 @@ import reactor.util.function.Tuple2;
 
 /**
  * @author c.kj
- * @Description reactor getting Started | something that basic use about spring reactor
+ * @Description reactor getting Started | something that basic use about spring
+ *              reactor
  * @Date 2020-07-10
  * @Time 11:03
  **/

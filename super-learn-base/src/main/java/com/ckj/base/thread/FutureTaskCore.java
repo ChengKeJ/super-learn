@@ -9,12 +9,20 @@ import lombok.extern.slf4j.Slf4j;
  * @Description Future simple use
  * @Date 2020-09-14
  * @Time 19:46
- * @Copyright @2019 Zhongan.com All right reserved
  **/
 @Slf4j
 public class FutureTaskCore {
 
     private static final FutureTaskCore INSTANCE = new FutureTaskCore();
+
+    public static void main(String[] args) {
+        try {
+            FutureTaskCore.INSTANCE.futureTask();
+        } catch (ExecutionException | InterruptedException e) {
+            e.printStackTrace();
+        }
+
+    }
 
     public void futureTask() throws ExecutionException, InterruptedException {
 
@@ -41,15 +49,6 @@ public class FutureTaskCore {
         if ("ok".equals(submit.get())) {
             log.info("over start another task2 ...");
         }
-    }
-
-    public static void main(String[] args) {
-        try {
-            FutureTaskCore.INSTANCE.futureTask();
-        } catch (ExecutionException | InterruptedException e) {
-            e.printStackTrace();
-        }
-
     }
 
 }

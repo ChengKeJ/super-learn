@@ -14,7 +14,6 @@ import lombok.extern.slf4j.Slf4j;
  * @Description 线程之间通信
  * @Date 2020-09-23
  * @Time 11:54
- * @Copyright @2019 Zhongan.com All right reserved
  **/
 @Slf4j
 public class ThreadCommunicationCore {
@@ -23,6 +22,26 @@ public class ThreadCommunicationCore {
             new ArrayBlockingQueue<>(13), ThreadFactoryBuilder.create().setNameFormat("pipedThread").get());
 
     private volatile boolean                block      = true;
+
+    public static void main(String[] args) throws IOException {
+
+        ThreadCommunicationCore threadCommunicationCore = new ThreadCommunicationCore();
+        // 管道通信
+        threadCommunicationCore.pipedThreadCommunication();
+        // 利用同一个对象进行线程通信
+        threadCommunicationCore.notifyOrWait(new Object());
+        // 利用共享内存进行线程通信
+        threadCommunicationCore.volatileCore();
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        threadCommunicationCore.block = false;
+        // 利用cyclicBarrier就绪线程然后执行目标线程
+        threadCommunicationCore.cyclicBarrier();
+
+    }
 
     /**
      * 利用管道进行线程之间的通信
@@ -167,28 +186,6 @@ public class ThreadCommunicationCore {
         });
 
         threadPool.shutdown();
-
-    }
-
-
-    public static void main(String[] args) throws IOException {
-
-        ThreadCommunicationCore threadCommunicationCore = new ThreadCommunicationCore();
-        // 管道通信
-        threadCommunicationCore.pipedThreadCommunication();
-        // 利用同一个对象进行线程通信
-        threadCommunicationCore.notifyOrWait(new Object());
-        // 利用共享内存进行线程通信
-        threadCommunicationCore.volatileCore();
-        try {
-            Thread.sleep(100);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        threadCommunicationCore.block = false;
-        // 利用cyclicBarrier就绪线程然后执行目标线程
-        threadCommunicationCore.cyclicBarrier();
-
 
     }
 
