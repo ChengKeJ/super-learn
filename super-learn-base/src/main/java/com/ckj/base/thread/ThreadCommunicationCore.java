@@ -27,17 +27,17 @@ public class ThreadCommunicationCore {
 
         ThreadCommunicationCore threadCommunicationCore = new ThreadCommunicationCore();
         // 管道通信
-        threadCommunicationCore.pipedThreadCommunication();
-        // 利用同一个对象进行线程通信
-        threadCommunicationCore.notifyOrWait(new Object());
-        // 利用共享内存进行线程通信
-        threadCommunicationCore.volatileCore();
-        try {
-            Thread.sleep(100);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        threadCommunicationCore.block = false;
+        //        threadCommunicationCore.pipedThreadCommunication();
+        //        // 利用同一个对象进行线程通信
+        //        threadCommunicationCore.notifyOrWait(new Object());
+        //        // 利用共享内存进行线程通信
+        //        threadCommunicationCore.volatileCore();
+        //        try {
+        //            Thread.sleep(100);
+        //        } catch (InterruptedException e) {
+        //            e.printStackTrace();
+        //        }
+        //        threadCommunicationCore.block = false;
         // 利用cyclicBarrier就绪线程然后执行目标线程
         threadCommunicationCore.cyclicBarrier();
 
@@ -148,45 +148,31 @@ public class ThreadCommunicationCore {
      */
     private void cyclicBarrier() {
 
-        CyclicBarrier cyclicBarrier = new CyclicBarrier(3, () -> {
-            log.info("cyclicBarrier end task ...");
-        });
-
+        CyclicBarrier cyclicBarrier = new CyclicBarrier(2,
+                () -> log.info("every task all arrive barrier " + "cyclicBarrier end task ..."));
         threadPool.execute(() -> {
             try {
-                log.info("start task 1 ...");
-                Thread.sleep(10);
-                log.info("end task1 ...");
+                log.info("start task1 ....");
+                Thread.sleep(1);
+                log.info("start task1 end ..");
                 cyclicBarrier.await();
             } catch (InterruptedException | BrokenBarrierException e) {
                 e.printStackTrace();
             }
+            log.info("continue start task1 step1 ....");
         });
 
         threadPool.execute(() -> {
             try {
-                log.info("start task 2 ...");
-                Thread.sleep(10000);
-                log.info("end task2 ...");
+                log.info("start task2 ....");
+                log.info("task2 wait other task ...");
                 cyclicBarrier.await();
             } catch (InterruptedException | BrokenBarrierException e) {
                 e.printStackTrace();
             }
+            log.info("continue start task2 step2 ....");
         });
-
-        threadPool.execute(() -> {
-            try {
-                log.info("start task 3 ...");
-                Thread.sleep(10);
-                log.info("end task3 ...");
-                cyclicBarrier.await();
-            } catch (InterruptedException | BrokenBarrierException e) {
-                e.printStackTrace();
-            }
-        });
-
         threadPool.shutdown();
-
     }
 
 }

@@ -23,6 +23,8 @@ public class ThreadLocalCore {
     private void baseUse() {
         ThreadLocal<Object> objectThreadLocal = new ThreadLocal<>();
 
+
+        // threadLocal  set => thread-> threadLocalMaps -> this ThreadLocal
         threadPool.execute(() -> {
             log.info("start task2 ...");
             objectThreadLocal.set("hello this thread2`s task");

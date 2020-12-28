@@ -24,12 +24,12 @@ public class SemaphoreCore {
 
         // set permits 0,1,2... 许可证只有一张 ，只有别人释放出来之后才可以继续 获取执行！
         // 当多个请求过来时 ，只允许处理三个请求 ，第四个请求也只有等三个请求中有人释放 许可证 才可以继续执行
-        Semaphore semaphore = new Semaphore(1);
+        Semaphore semaphore = new Semaphore(2);
 
         threadPool.execute(() -> {
             try {
                 semaphore.acquire();
-                Thread.sleep(1000);
+                Thread.sleep(10000);
                 log.info("task1 start ...");
             } catch (InterruptedException e) {
                 e.printStackTrace();
