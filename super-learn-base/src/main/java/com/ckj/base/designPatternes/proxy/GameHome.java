@@ -22,7 +22,6 @@ import java.lang.reflect.Proxy;
 @Slf4j
 public class GameHome {
 
-
     public static void main(String[] args) {
         proxyCheck();
         proxyPlay();

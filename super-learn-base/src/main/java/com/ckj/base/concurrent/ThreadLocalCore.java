@@ -1,8 +1,6 @@
 package com.ckj.base.concurrent;
 
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 import com.alibaba.fastjson.JSON;
 
@@ -78,6 +76,8 @@ public class ThreadLocalCore {
         userContext.getObjContext().put("chris", "super Man");
 
         log.info(JSON.toJSONString(userContext));
+
+        ExecutorService executorService = Executors.newSingleThreadExecutor();
 
     }
 }

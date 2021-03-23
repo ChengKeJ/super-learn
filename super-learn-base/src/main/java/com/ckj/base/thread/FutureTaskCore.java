@@ -22,6 +22,20 @@ public class FutureTaskCore {
             e.printStackTrace();
         }
 
+        //        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(2, 5, 5, TimeUnit.MINUTES,
+        //                new ArrayBlockingQueue<>(2), Executors.defaultThreadFactory(), new ThreadPoolExecutor.AbortPolicy());
+        //
+        //        for (int i = 0; i < 7; i++) {
+        //            threadPoolExecutor.execute(() -> {
+        //                try {
+        //                    Thread.sleep(1);
+        //                } catch (InterruptedException e) {
+        //                    e.printStackTrace();
+        //                }
+        //                System.out.println(Thread.currentThread().getName());
+        //            });
+        //        }
+
     }
 
     public void futureTask() throws ExecutionException, InterruptedException {

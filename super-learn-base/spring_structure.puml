@@ -1,0 +1,43 @@
+@startwbs
+* springApplication start
+** init 构造函数初始化
+*** 设置Web应用程序类型
+**** servlet
+*** 设置初始化器 initializers --> set  Collection<? extends ApplicationContextInitializer<?>> initializers
+**** step 1 ：从spring & spring-autoConfig jar 的 META_INF/spring.factories 获取类路径 放到 MultiValueMap里
+**** step 2 ：根据对应的class类型从MultiValueMap里获取对应class类型key的所有类路径
+***** code: Set<String> names = new LinkedHashSet<>(SpringFactoriesLoader.loadFactoryNames(type, classLoader));
+**** step 3 ：根据类路径利用反射进行实列化
+***** code: List<T> instances = createSpringFactoriesInstances(type, parameterTypes,classLoader, args, names);
+*** 设置监听器 listener --> set Collection<? extends ApplicationListener<?>> listeners
+*** 设置主要运行类 mainApplicationClass
+
+
+** run 运行
+*** 创建并启动计时器 StopWatch
+*** 设置headless 属性并设置到系统属性
+*** 获取并初始化监听器 getRunListeners() -> SpringApplicationRunListeners
+**** code : SpringApplicationRunListeners listeners = getRunListeners(args) 见step 1，2，3
+*** 启动监听器
+**** code : listeners.starting() -> SimpleApplicationEventMulticaster.multicastEvent()（简单应用事件多播器）-> 执行 ApplicationStartingEvent(事件)
+**** code : -> doInvokeListener ->listener.onApplicationEvent(event)-> 执行几个listener 对应的事件
+*** 设置命令行参数
+*** 准备环境对象 prepareEnvironment
+**** 创建环境对象 StandardServletEnvironment
+**** 加载系统参数 configureEnvironment
+**** 进行初始化操作
+**** load 对应的资源
+*** 打印banner printBanner
+*** 创建应用上下文 createApplicationContext()
+*** 准备异常报告器 exceptionReporters
+*** 准备上下文 prepareContext
+*** 刷新上下文 refreshContext
+*** 刷新之后 afterRefresh 空方法
+*** 停止计时器
+*** 调用runner执行器
+*** 发布上下文准备就绪事件
+
+
+
+** end
+@endwbs
