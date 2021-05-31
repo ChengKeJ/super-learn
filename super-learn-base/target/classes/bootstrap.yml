@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: super-learn
+
+#    remote nacos
+#  cloud:
+#    config:
+#      uri: ${CONFIG_URI:http://localhost:8888}
+#      name:  super-learn-nacos
+#      label: ${spring.application.name}
+#      failFast: true
+#      profile: ${DEPLOY_ENV}
+#
