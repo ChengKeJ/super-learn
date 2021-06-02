@@ -2,6 +2,7 @@ package com.ckj.base.spring;
 
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.aop.framework.ProxyFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @Slf4j
@@ -59,6 +60,7 @@ public class ApplicationContextCore {
         TestBeanPostProcessorCore testBeanPostCore = (TestBeanPostProcessorCore) context.getBean("testBeanPostProcessorCore");
 
         log.info("=========" + JSON.toJSONString(testBeanPostCore));
+
 
     }
 }
