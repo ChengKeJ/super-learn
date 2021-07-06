@@ -24,6 +24,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @ImportResource(value = "classpath:applicationContext.xml")
 public class SuperLearnApplication {
 
+
     public static void main(String[] args) {
         SpringApplication.run(SuperLearnApplication.class, args);
     }
