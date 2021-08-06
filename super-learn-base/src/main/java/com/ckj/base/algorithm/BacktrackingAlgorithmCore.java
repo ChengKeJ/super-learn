@@ -55,8 +55,6 @@ public class BacktrackingAlgorithmCore {
 
 
     public static void main(String[] args) {
-
-
         BacktrackingAlgorithmCore backtrackingAlgorithmCore = new BacktrackingAlgorithmCore();
         backtrackingAlgorithmCore.cal8queens(0);
 
