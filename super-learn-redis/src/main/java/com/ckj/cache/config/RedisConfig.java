@@ -17,6 +17,8 @@ import redis.clients.jedis.JedisPoolConfig;
 @EnableConfigurationProperties(RedisProperties.class)
 public class RedisConfig {
 
+
+
     public static final int     DEFAULT_MAX_TOTAL = 100;
     public static final int     DEFAULT_MAX_IDLE  = 100;
     public static final int     DEFAULT_MIN_IDLE  = 0;
