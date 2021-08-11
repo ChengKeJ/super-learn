@@ -69,7 +69,7 @@ public class DijkstraCore {
      * 利用优先级队列 实现的 Dijkstra 降低时间复杂度O
      */
 
-    HashMap<Vertex, Integer> distraQueue(Vertex from) {
+    HashMap<Vertex, Integer> dijkstraQueue(Vertex from) {
         // this map -> from to current vertex distance
         HashMap<Vertex, Integer> distanceMap = new HashMap<>();
         PriorityQueue<Node> queue = new PriorityQueue<>();
@@ -156,7 +156,7 @@ public class DijkstraCore {
          * DijkstraCore.dijkstraQueue  avgt    5  472.235 ± 336.026   us/op
          */
         DijkstraCore dijkstraCore = new DijkstraCore();
-        HashMap<Vertex, Integer> dijkstra = dijkstraCore.distraQueue(vertexA);
+        HashMap<Vertex, Integer> dijkstra = dijkstraCore.dijkstraQueue(vertexA);
         dijkstra.forEach((k, v) -> System.out.println("dijkstraQueue from start to " + k.getLabel() + " 最短距离 distance is " + v));
         return 0;
 
@@ -195,7 +195,7 @@ public class DijkstraCore {
         Edge edgeDE = new Edge(vertexD, vertexE, 2);
         vertexD.setEdgeList(Arrays.asList(edgeDE));
         DijkstraCore dijkstraCore = new DijkstraCore();
-        HashMap<Vertex, Integer> dijkstra = dijkstraCore.distraQueue(vertexA);
+        HashMap<Vertex, Integer> dijkstra = dijkstraCore.dijkstraQueue(vertexA);
         dijkstra.forEach((k, v) -> System.out.println("from start to " + k.getLabel() + " 最短距离 distance is " + v));
 
         HashMap<Vertex, Integer> dijkstra2 = dijkstraCore.dijkstra(vertexA);
