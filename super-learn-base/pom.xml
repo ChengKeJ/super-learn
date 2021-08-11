@@ -14,7 +14,7 @@
     <artifactId>super-learn-base</artifactId>
     <version>1.0.1-SNAPSHOT</version>
 
-    <packaging>jar</packaging>
+<!--    <packaging>jar</packaging>-->
 
     <properties>
         <java.version>1.8</java.version>

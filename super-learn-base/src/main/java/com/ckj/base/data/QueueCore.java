@@ -1,9 +1,9 @@
 package com.ckj.base.data;
 
-import lombok.extern.slf4j.Slf4j;
+//import lombok.extern.slf4j.Slf4j;
 
 
-@Slf4j
+//@Slf4j
 public class QueueCore {
 
     public class ArrayQueue {
@@ -64,22 +64,22 @@ public class QueueCore {
 
         for (int i = 0; i <= 15; i++) {
             boolean enqueue = queue.enqueue("item_is :" + i);
-            log.info("enqueue result is " + enqueue);
+//            log.info("enqueue result is " + enqueue);
         }
 
         while (queue.head != queue.tail) {
             String dequeue = queue.dequeue();
-            log.info("dequeue item is " + dequeue);
+//            log.info("dequeue item is " + dequeue);
         }
 
         for (int i = 0; i <= 15; i++) {
             boolean enqueue = queue.enqueue("item_is :" + i);
-            log.info("enqueue result is " + enqueue);
+//            log.info("enqueue result is " + enqueue);
         }
 
         for (int i = 0; i <= 17; i++) {
             boolean enqueue = queue.enqueueV2("item_is :" + i);
-            log.info("enqueueV2 result is" + enqueue);
+//            log.info("enqueueV2 result is" + enqueue);
         }
 
 
