@@ -1,11 +1,5 @@
 package com.ckj.base.algorithm;
 
-/**
- * @author c.kj
- * @Description
- * @Date 2021/6/21
- * @Time 5:56 PM
- **/
 
 
 // Java implementation of QuickSort
