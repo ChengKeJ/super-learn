@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37e1d5c0-335a-4b9e-b7b5-68b480928804" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/ExecutorCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/LockSupportCore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/ReentrantReadwriteLockCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/ReentrantReadwriteLockCore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +83,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -213,7 +213,7 @@
       <workItem from="1629680708595" duration="12170000" />
       <workItem from="1629874516464" duration="6871000" />
       <workItem from="1630460502956" duration="24609000" />
-      <workItem from="1630847847975" duration="29706000" />
+      <workItem from="1630847847975" duration="30630000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1628228427679</created>
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631014339455</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update juc">
+      <created>1631080207838</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631080207838</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
