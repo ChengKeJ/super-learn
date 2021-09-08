@@ -5,82 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37e1d5c0-335a-4b9e-b7b5-68b480928804" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_core_1_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_generator_annprocess_1_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/03e71224bf1cd1a64a47b3162a21b6a1ec0066d9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0be16b99bab07b5b6703f2207d354c071a108513" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d37cfa851d5bfe27f170a030e628ed0b0b95089" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/168ba036672e9ef2a9c5b3fc7ca30c0cfdd60c26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/192ef100a68e1b4b6e96e146855162b4ee7763ae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bebb6ea4413f7d5d9625f7a163b5e3a8bb32c73" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1faeb7455206bc098b47497076d7a71bcbebcb19" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f88187a412ea42ca77c35aa1f71cdf942d4f521" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/331835ef52594faca304b05e334c375ac538bbfc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/354d99770b2d20104ce6966f9791584b4674ba62" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3dd4df1eba1941f443245e1cab387e6cdfbe8e7c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e4b4e53849760a94d06271dc45eb6524fad95b5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46be00251f52d6cddd7945834c40936698677a9b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46bfbb070a0c6d95c35ccfe2f48b38aef37d9f11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b57430a031a9c89134db10354923f1107538c08" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/5778085bdaba30def2145161a420324ca71816fe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a35a2c7cb1a18304c3dfcb4360dcbb26c754512" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5cc841ba4b8ba843056a5b8f2ba7bd990c0a37ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e43804812360f833a92fa0d2e8a1f844324232e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60327710fe91a36e7c60d7deba5e9d49c6244be0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68c0b03fedabbe419ed938aad828a94626af3de3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/7509125d28e40d3202003dc1f6bd470f08df655d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79c69f75b4db4309d17a4ada3881fd9998ce9d6e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b0d5ae849f8b6f06d6db95ade1d59752d121d87" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ea8dfb210ec8f17fcf61c47dabeb9ab8d39db6e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/863a1872c53e7f168932027c851a514d81996584" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8bca1a7230008013c3f6935ea67615a648872fa2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9a7f9ab33ad26157f422214753bd9718cf46130a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a28e6b5a2cec1b58735b66f2d4c33af55d8eac6b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2e1c27729c166ce3aa9afcb94a0173eb7211f6b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b697de76dbd47a9fa339bc7c37520e41ddb1ef82" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba3099d69fb8d88a805035e484c30b5391f52db3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba943ec2c575cca89b0a4a0c748ff0db563a02a8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0d25ac2253317087e2a17e5696823b7d814086a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c57e385845606af2272543aa8d8dd366e92afdfa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d29072c90bb6a5888e20f4ae33334510c841bf70" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/dac655b5f798f93c92b16b33b8141fef3221c4e2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/daceeed22d73a637236eb815057149d338fd0e90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db0fb5aadda896281a9506fb387c4dc0f7b9467e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea1ccb99afb326363f7bb751c1837e2d891135c2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f51f9c9ea54364517412a9c46f713ffc5c8ff9f1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f998bc694dc885bd44b47159f3e1557a48ddfb9c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/algorithm/dp/UniquePathsCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/algorithm/dp/UniquePathsWithObstaclesCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/algorithm/graph/CloneGraphCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/algorithm/loop/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/algorithm/loop/MergeListCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/algorithm/loop/SwapPairsCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/algorithm/loop/ViolentRecursionCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/code/IntegerCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/code/ListTCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/Core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/CountDownLatchCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/ReentrantReadwriteLockCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/ReentrantlockCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/UnsafeSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/data/QueueCore$ArrayQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/data/QueueCore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/designPatternes/strategy/TestCore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/other/WatchLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/super-learn-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/super-learn-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/super-learn-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/algorithm/GFG.java" beforeDir="false" afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/algorithm/GFG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/ExecutorCore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/LockSupportCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/ReentrantReadwriteLockCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/ReentrantReadwriteLockCore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +213,7 @@
       <workItem from="1629680708595" duration="12170000" />
       <workItem from="1629874516464" duration="6871000" />
       <workItem from="1630460502956" duration="24609000" />
-      <workItem from="1630847847975" duration="23121000" />
+      <workItem from="1630847847975" duration="29706000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1628228427679</created>
@@ -315,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628670135383</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update juc">
+      <created>1631014339455</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631014339455</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +282,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="Merge branch 'master' of https://github.com/ChengKeJ/super-learn&#10;&#10;# Conflicts:&#10;#&#9;super-learn-base/src/main/java/com/ckj/base/SuperLearnApplication.java" />
     <MESSAGE value="update dijkstra" />
-    <option name="LAST_COMMIT_MESSAGE" value="update dijkstra" />
+    <MESSAGE value="update juc" />
+    <option name="LAST_COMMIT_MESSAGE" value="update juc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -388,11 +324,6 @@
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/ReentrantReadwriteLockCore.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java</url>
           <line>555</line>
           <option name="timeStamp" value="37" />
@@ -408,19 +339,64 @@
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/ReentrantReadwriteLockCore.java</url>
-          <line>77</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/super-learn-base/src/main/java/com/ckj/base/concurrent/ReentrantReadwriteLockCore.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java</url>
           <line>269</line>
           <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>1197</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>857</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java</url>
+          <line>942</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>861</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>862</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>868</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>869</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>873</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>795</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java</url>
+          <line>1130</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
